@@ -2,8 +2,8 @@ package com.Skilldistillery.makechange;
 
 public class ChangeArray {
 	double money[] = { 20, 10, 5, 1, .25, .10, .049, .009 };
-	String denominations[] = { "twenties: ", "tens: ", "fives: ", "ones: ", "quarters: ", "dimes: ", "nickels: ",
-			"pennies: " };
+	String denominations[] = { "Twenties: ", "Tens: ", "Fives: ", "Ones: ", "Quarters: ", "Dimes: ", "Nickels: ",
+			"Pennies: " };
 
 	public void cashArry(double total) {
 		double changeDue = total;
